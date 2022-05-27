@@ -55,7 +55,7 @@ ROOT_URLCONF = 'PersonalSite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'personalResume/tempaltes'],
+        'DIRS': [BASE_DIR / 'personalResume/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
